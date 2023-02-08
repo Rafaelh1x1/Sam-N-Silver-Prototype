@@ -1,0 +1,42 @@
+@media (max-width: 37.437rem) {
+  .mini-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-bottom: 1.25rem;
+    color: #335671;
+    letter-spacing: 0.0625rem;
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    transition: all 1s ease-in;
+    transform: translatex(0);
+    /* opacity: 90%; */
+    pointer-events: auto;
+    visibility: visible;
+  }
+  /* Mobile Nav */
+
+  .nav-open .mini-header {
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    transform: translateX(-100%);
+    transition: all 1s ease-out;
+  }
+
+  .x {
+    width: 2rem;
+    height: 2rem;
+    display: block;
+    cursor: pointer;
+  }
+}

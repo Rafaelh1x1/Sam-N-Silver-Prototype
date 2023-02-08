@@ -1,0 +1,259 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  color: #343a40;
+}
+
+a:link {
+  color: inherit;
+  text-decoration: none;
+}
+a:visited {
+  color: inherit;
+}
+a:hover {
+  color: #23395b;
+}
+a:active {
+  color: #cbf7ed;
+}
+.home-page {
+}
+
+/* TOP HEADER AREA */
+
+.top {
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 400;
+  background-color: #46769b;
+  padding: 0.625rem;
+  color: #e3ecf2;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.0625rem;
+}
+
+.hamburger {
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+}
+.x {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: none;
+}
+.search {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.header {
+  font-size: 1.5rem;
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  grid-template-columns: auto auto 1fr auto auto;
+  column-gap: 1.25rem;
+  padding: 0.625rem;
+  padding-bottom: 0.3125rem;
+}
+.samnsilver {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #23395b;
+  justify-content: space-between;
+}
+
+.heart {
+  width: 1.5rem;
+  height: 1.5rem;
+  stroke: #23395b;
+}
+
+.cart {
+  width: 1.5rem;
+  height: 1.5rem;
+  stroke: #23395b;
+}
+
+/* MINI-HEADER */
+
+.mini-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  padding-bottom: 1.25rem;
+  color: #b7cce1;
+  letter-spacing: 0.0625rem;
+}
+
+/* ROW OF IMAGES */
+
+.earring {
+  /* box-shadow: 0 0 0.625rem #343a40; */
+}
+
+.necklace {
+  /* box-shadow: 0 0 0.625rem #343a40; */
+}
+
+.ring {
+  /* box-shadow: 0 0 0.625rem #343a40; */
+}
+
+.row1 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 1.25rem;
+  /* padding: 1.25rem; */
+  justify-items: center;
+  padding-bottom: 5.25rem;
+  max-width: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* FEATURED COLLECTION */
+
+.fc-header {
+  text-align: center;
+  font-size: 1.875rem;
+  font-weight: 500;
+  padding-bottom: 2rem;
+}
+.fc {
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  gap: 3rem;
+  padding-bottom: 3rem;
+}
+.fc-card {
+  width: 12.5rem;
+}
+
+.fc-product {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+.fc-material {
+  font-size: 0.75rem;
+}
+.fc-price {
+  font-size: 0.75rem;
+}
+
+/* BUTTERFLY COLLECTION */
+
+.bc {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  gap: 3rem;
+  padding-bottom: 3rem;
+}
+
+.bc-card {
+  width: 12.5rem;
+}
+
+.bc-product {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+.bc-material {
+  font-size: 0.75rem;
+}
+.bc-price {
+  font-size: 0.75rem;
+}
+
+/* ABOUT US */
+.about-us-section {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-color: #46769b;
+  color: #e3ecf2;
+  padding: 3.125rem;
+  grid-template-columns: 1fr 1fr;
+}
+.au-row1 {
+  width: 100%;
+}
+.au-header {
+  font-size: 2.75rem;
+  font-weight: 500;
+}
+.au-text {
+  font-size: 1.875rem;
+  font-weight: 400;
+  padding-bottom: 1.875rem;
+}
+.au1 {
+  font-size: 1.25rem;
+  font-weight: 300;
+  padding-bottom: 1.25rem;
+}
+
+/* FOOTER */
+.footer {
+  display: flex;
+  gap: 6.25rem;
+  align-content: center;
+  justify-content: center;
+  padding: 6.25rem;
+}
+
+.footer-start {
+  font-size: 2.25rem;
+  border-bottom: 0.125rem solid #23395b;
+  text-align: center;
+}
+.footer-start2 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.fotter-row2 {
+  row-gap: 0.9375rem;
+}
+.footer-words {
+  font-size: 1.125rem;
+  /* row-gap: px; */
+}
+
+.bottom {
+  display: flex;
+  gap: 1.875rem;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  row-gap: 0;
+  /* background-color:white; */
+}
