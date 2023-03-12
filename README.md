@@ -1,2 +1,3 @@
-# SmnNSIlver
-Prototype Website for Sam N SIlver
+# Sa
+mnNSIlver
+Prototype Website for Sam N Silver
